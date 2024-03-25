@@ -25,7 +25,7 @@ pipeline {
 
     stage('Pushing Image') {
       environment {
-               registryCredential = 'pramod779267'
+               registryCredential = 'pramoddockerhub'
            }
       steps{
         script {
